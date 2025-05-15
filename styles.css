@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid 5px red;
+    min-height: 100vh;
+    background-color: #f9f4e8;
+}
+
+header {
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul {
+    
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: black; /* Color azul (usa código HEX si prefieres, ej: #0066cc) */
+    font-weight: bold;
+}
+
+main {
+    border: solid 5px blue;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hero {
+    border: solid 5px green;
+
+}
