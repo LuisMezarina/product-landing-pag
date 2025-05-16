@@ -4,9 +4,8 @@
 }
 
 body {
-    border: solid 5px red;
     min-height: 100vh;
-    background-color: #f9f4e8;
+    background-color: #e6f2ff;
 }
 
 header {
@@ -31,12 +30,11 @@ ul {
 
 ul li a {
     text-decoration: none; /* Quita el subrayado */
-    color: black; /* Color azul (usa código HEX si prefieres, ej: #0066cc) */
+    color: black;
     font-weight: bold;
 }
 
 main {
-    border: solid 5px blue;
     min-height: 80vh;
     display: flex;
     justify-content: center;
@@ -44,10 +42,58 @@ main {
 }
 
 hero {
-    border: solid 5px green;
+    width: 70%;
 
 }
 
-.Imagen 02 {
+#Imagen02 {
+   display: block;       /* Necesario para que funcione margin auto */
+  margin: 0 auto;       /* Centrado horizontal */
+  max-width: 100%;      /* Opcional: asegura que no se salga del contenedor */
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
    
+    text-align: center;
+     max-width: 50%;
+      margin: 0 auto;     /* Centra el elemento horizontalmente */
+     padding: 10px;      /* Espacio interno para mejor legibilidad (opcional) */
+    
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px; /* Bordes muy redondeados */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer button:first-child {
+  background-color: #005f8c; /* Azul corporativo */
+  color: white;
+}
+
+footer button:nth-child(2) {
+  background-color: #003a5d; /* Azul más oscuro */
+  color: white;
+}
+
+footer button:last-child {
+  background-color: #d4af37; /* Dorado Dubai */
+  color: #0a2540; /* Texto azul oscuro */
+  font-weight: 800;
+  letter-spacing: 1px;
